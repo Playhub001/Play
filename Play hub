@@ -58,7 +58,8 @@ PremiumTab:AddToggle({
                     end
       end
       if Value == false then
-    stopScript = truewhile not stopScript do
+    stopScript = true
+while not stopScript do
                 wait(0.001)
                 local args1 = {[1] = "Yami",
                     [2] = CFrame.new(-217.91534423828125, 22.39946746826172, 38.55649948120117) * CFrame.Angles(-0, 0, -0)
